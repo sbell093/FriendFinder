@@ -1,4 +1,4 @@
-var friends = [
+const friends = [
     {
         "name": 'Doug',
         "photo": 'https://i.pinimg.com/736x/04/ec/49/04ec498c8dbfdf9ed476e74d27089940--s-nickelodeon-s-theme.jpg',

@@ -1,5 +1,5 @@
 // Path package for html
-var path = require("path");
+const path = require("path");
 
 // ROUTING
 

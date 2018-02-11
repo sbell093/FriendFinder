@@ -3,8 +3,8 @@ const express = require('express');
 const path = require('path');
 
 //Tells node to create express server
-var app = express();
-var PORT = process.env.PORT || 8080;
+const app = express();
+const PORT = process.env.PORT || 8080;
 
 
 // Lets express app handle data parsing
