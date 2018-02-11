@@ -15,39 +15,207 @@
 <body>
     <!-- Survey Header-->
     <div class="container">
-        <div class="page-header">
-            <h1>Survey Questions</h1>
-        </div>
-    
+        <h1>Survey Questions</h1>
+        <hr>
         <!-- Name and email form box-->
-        <form class="form-horizontal">
-            <h2>About Me</h2>
-            <div class="form-group">
-                <h4><label for="inputEmail3" class="col-sm-2 control-label">Name (Required)</label></h4>
-                
+        <h2>About You</h2>
+        <h4>Name (Required)</h4>
+        <input type="text" name="" id="name" class="form-control" required>
+        <br>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name="" id="photo" class="form-control" required>
+        <hr>
 
-                <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                </div>
-            </div>
-            <div class="form-group">
-                <h4><label for="inputPassword3" class="col-sm-2 control-label">Link to Photo Image (Required)</label></h4>
-                <div class="col-sm-10">
-                    <input type="link" class="form-control" id="inputPassword3" placeholder="Password">
-                </div>
-            </div>
-            <hr>
-        </form>
-    
+        <!-- Questions -->
+        <h3>Question 1</h3>
+        <h5>You enjoy outdoor activities.</h5>
+        <select data-placeholder="" class="chosen-select" id="q1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
+        <h3>Question 2</h3>
+        <h5>You frequently travel to music festivals.</h5>
+        <select data-placeholder="" class="chosen-select" id="q2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
+        <h3>Question 3</h3>
+        <h5>You think that Starbucks coffee tastes like burnt tires.</h5>
+        <select data-placeholder="" class="chosen-select" id="q3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
 
+        <h3>Question 4</h3>
+        <h5>You rarely do something just out of sheer curiosity.</h5>
+        <select data-placeholder="" class="chosen-select" id="q4">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>Question 5</h3>
+        <h5>You're more of a dog person.</h5>
+        <select data-placeholder="" class="chosen-select" id="q5">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>Question 6</h3>
+        <h5>Sunrises are better than sunsets.</h5>
+        <select data-placeholder="" class="chosen-select" id="q6">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>Question 7</h3>
+        <h5>You have a good relationship with your mother.</h5>
+        <select data-placeholder="" class="chosen-select" id="q7">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>Question 8</h3>
+        <h5>You rarely get carried away by fantasies and ideas.</h5>
+        <select data-placeholder="" class="chosen-select" id="q8">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>Question 9</h3>
+        <h5>The idea of selling all your things and living out of a non ominous van excites you.</h5>
+        <select data-placeholder="" class="chosen-select" id="q9">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <h3>Question 10</h3>
+        <h5>You enjoy going out and meeting new people.</h5>
+        <select data-placeholder="" class="chosen-select" id="q10">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block submit" id="myBtn">Submit</button>
+    </div>
+    </form>
+
+    </div>
+    <hr>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Table Link</a> |
+                <a href="https://github.com/sbell093/FriendFinder.git">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
 
     </div>
 </body>
+<!-- Modal -->
+<div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
 
-</html>
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title">
+                    <strong>Closest Friend Match</strong>
+                </h2>
+            </div>
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img id="matchImg" class="materialboxed" width="500" src="">
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-default" data-dismiss="modal">New Survey</button> -->
+                <button type="button" class="btn btn-default">
+                    <a href="./survey" class="modal-close" id="close">New Survey</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <script type="text/javascript">
 
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+
+        var newfriend = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            scores: [
+                $("#q1").val().trim(),
+                $("#q2").val().trim(),
+                $("#q3").val().trim(),
+                $("#q4").val().trim(),
+                $("#q5").val().trim(),
+                $("#q6").val().trim(),
+                $("#q7").val().trim(),
+                $("#q8").val().trim(),
+                $("#q9").val().trim(),
+                $("#q10").val().trim()
+            ]
+        }
+
+        $.post("/api/friends", newfriend).done(function (data) {
+            $("#matchName").text(data.matchName);
+            $('#matchImg').attr("src", data.matchImage);
+            $("#resultsModal").modal('toggle');
+        });
+
+    });
+
 </script>
+
+</html>
